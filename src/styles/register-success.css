@@ -1,0 +1,14 @@
+/* START OF REGISTER-SUCCESS-CONTAINER */
+.register-success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.register-success-container h1 {
+  font-size: 1.5rem
+}
+/* END OF REGISTER-SUCCESS-CONTAINER */

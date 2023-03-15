@@ -1,0 +1,92 @@
+/* START OF GROUP-CHAT-CONTAINER */
+.group-chat-container {
+  margin-top: 30px;
+  border-top: 2px solid black;
+  border-radius: 5px;
+  position: relative;
+  height: 500px;
+}
+
+/* END OF GROUP-CHAT-CONTAINER */
+
+/* START OF EXIT-CONTAINER */
+.exit-container p {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 8px;
+}
+
+/* END OF EXIT-CONTAINER */
+
+/* START OF CHATS-CONTAINER */
+.chats-container {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  height: 80%;
+  padding: 20px 10px 10px 10px;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+.chats-container p {
+  margin: 3px 0px;
+}
+/* END OF CHATS-CONTAINER */
+
+/* START OF SEND-FORM-CONTAINER */
+.send-form-container {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid black;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+/* END OF SEND-FORM-CONTAINER */
+
+/* START OF MESSAGE-FORM */
+.message-form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-form p {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.message-form input {
+  width: 65vw;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  padding: 8px;
+  margin: 0px 20px;
+}
+
+.message-form button, .refresh-btn {
+  border: 2px solid black;
+  background-color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.message-form button:hover {
+  cursor: pointer;
+}
+
+.refresh-btn {
+  margin-right: 120px;
+  margin-left: 10px;
+}
+
+.refresh-btn:hover {
+  cursor: pointer;
+}
+
+/* END OF MESSAGE-FORM */

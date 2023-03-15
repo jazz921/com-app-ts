@@ -1,0 +1,17 @@
+.error-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 30px;
+  background: linear-gradient(rgb(250, 254, 255), #d3d8e8);
+}
+
+.error-page h1 {
+  color: #1d1b1b;
+}
+
+.error-page p {
+  color: #333;
+}

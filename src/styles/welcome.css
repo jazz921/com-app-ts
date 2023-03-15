@@ -1,0 +1,24 @@
+/* START OF WELCOME CONTAINER */
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 70px;
+}
+
+.welcome-container h1 {
+  font-size: 1.6rem;
+}
+
+.welcome-container a {
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 130px;
+  padding: 5px;
+  text-align: center;
+}
+/* END OF WELCOME CONTAINER */

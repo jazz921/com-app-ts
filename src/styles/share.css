@@ -1,0 +1,74 @@
+/* START OF ADD-SHARING-CONTAINER */
+.add-sharing-container {
+  margin-top: 30px;
+}
+
+.add-sharing-container h1 {
+  padding-left: 10px;
+}
+
+.shared-container h1 span {
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+
+/* END OF ADD-SHARING-CONTAINER */
+
+/* START OF FLEX */
+.flex {
+  height: 90px;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  gap: 40px;
+}
+
+.flex button {
+  margin-left: 10px;
+  font-size: 1rem;
+  padding: 8px 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: #B3B3B3;
+}
+/* END OF FLEX-CONTAINER */
+
+/* START OF SELECT-BOX-CONTAINER */
+.select-box-container {
+  position: relative;
+}
+
+.arrow-container {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.arrow-container div {
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-top: 15px solid black;
+
+}
+
+.select-box-container select {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  width: 300px;
+  appearance: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* END OF SELECT-BOX-CONTAINER */

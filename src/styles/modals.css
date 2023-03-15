@@ -1,0 +1,247 @@
+/* START OF DELETE MODAL */
+.delete-modal {
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; 
+  z-index: 9999;
+}
+
+.close-container {
+  width: 100%;
+  padding: 7px;
+  border-bottom: 2px solid black;
+  position: relative;
+}
+
+.close-container img {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+}
+
+.close-container p {
+  text-align: center;
+  padding-right: 30px;
+}
+
+.close-icon {
+  position: absolute;
+  top: 3px;
+  right: 4px;
+  width: 25px;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.close-icon span {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+.close-icon span:nth-child(1) {
+  transform: translate(0px, 10px) rotate(45deg);
+}
+
+.close-icon span:nth-child(2) {
+  transform: translate(0px, -9px) rotate(-45deg);
+}
+
+.buttons-container {
+  padding-bottom: 20px;
+}
+
+.buttons-container button {
+  border: 2px solid black;
+  background-color: white;
+  font-size: 1rem;
+  padding: 3px 20px;
+  border-radius: 10px;
+  margin: 0px 5px;
+}
+
+.buttons-container button:nth-child(1):hover {
+  border: 2px solid blue;
+}
+
+.buttons-container button:hover {
+  cursor: pointer
+}
+/* END OF DELETE MODAL */
+
+/* START OF EDIT-FILE MODAL */
+.edit-modal-container {
+  width: 550px;
+  height: 225px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+.edit-modal-container p {
+  font-weight: bold;
+}
+
+.edit-label-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.edit-label-container form {
+  position: relative;
+}
+
+.edit-label-container form > button {
+  position: absolute;
+  top: 75px;
+  left: -17px;
+}
+
+.edit-label-container #exit {
+  position: absolute;
+  top: 75px;
+  left: 200px;
+}
+
+.edit-label-container input {
+  width: 400px;
+  margin-left: 20px;
+  font-size: 1rem;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.edit-label-container button {
+  background-color: #B3B3B3;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px 30px;
+  margin-left: 40px;
+}
+/* MODAL OF EDIT-FILE MODAL */
+
+/* START OF UPLOAD-FILE MODAL */
+.upload-modal-container {
+  width: 550px;
+  height: 250px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.flex-container span {
+  font-weight: bold;
+}
+
+.flex-container form > div:nth-child(1) {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.flex-container form > div:nth-child(1) span {
+  margin-right: 40px;
+}
+
+.flex-container form > div:nth-child(1) input {
+  width: 350px;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.flex-container form > div:nth-child(2) {
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.flex-container form > div:nth-child(2) span {
+  margin-right: 35px;
+}
+
+.flex-container form > div:nth-child(2) input {
+  font-weight: bold;
+  width: 350px;
+  font-size: 1rem;
+}
+
+.flex-container form > div:nth-child(2) input::file-selector-button {
+  background: #B3B3B3;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+.flex-container form > div:nth-child(3) {
+  margin-top: 15px;
+}
+
+.flex-container form > div:nth-child(3) button {
+  margin-left: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  background: #B3B3B3;
+  border-radius: 10px;
+  position: absolute;
+  top: 150px;
+  left: -5px;
+}
+
+.flex-container button {
+  background: #B3B3B3;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 40px;
+  position: absolute;
+  left: 170px;
+  top: 150px;
+}
+
+/* END OF UPLOAD-FILE MODAL */

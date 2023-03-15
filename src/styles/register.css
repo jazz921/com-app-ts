@@ -1,0 +1,71 @@
+/* START OF REGISTER-CONTAINER */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* END OF REGISTER-CONTAINER */
+
+/* START OF REGISTER-FORM */
+.register-container {
+  margin-top: 50px;
+}
+
+.register-container h1 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.register-form table {
+  padding-right: 180px;
+}
+
+.register-form td {
+  padding: 20px;
+  position: relative;
+}
+
+.error-msg {
+  width: 500px;
+  font-size: .9rem;
+  color: red;
+  position: absolute;
+  top: 60px;
+}
+
+.register-container td:nth-child(1) {
+  text-align: right;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.register-container tr:nth-last-child(1) td {
+  text-align: center;
+}
+
+.register-container input {
+  font-size: 1rem;
+  padding: 7px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.register-container button {
+  margin-top: 30px;
+  background: #66FFFF;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-left: 180px;
+  width: 150px;
+  padding: 8px 25px;
+}
+
+.register-container button:hover {
+  cursor: pointer;
+}
+
+/* END OF REGISTER-FORM */
